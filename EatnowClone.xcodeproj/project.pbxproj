@@ -13,6 +13,13 @@
 		8BF8A30C1D054BAA009AAF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8A30A1D054BAA009AAF65 /* Main.storyboard */; };
 		8BF8A30E1D054BAA009AAF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8A30D1D054BAA009AAF65 /* Assets.xcassets */; };
 		8BF8A3111D054BAA009AAF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8A30F1D054BAA009AAF65 /* LaunchScreen.storyboard */; };
+		8BF8A3191D054E4B009AAF65 /* eatnowLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8A3181D054E4B009AAF65 /* eatnowLogo.png */; };
+		8BF8A31C1D054F99009AAF65 /* Restaurent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A31B1D054F99009AAF65 /* Restaurent.m */; };
+		8BF8A3231D055039009AAF65 /* CustomerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3221D055039009AAF65 /* CustomerInfo.m */; };
+		8BF8A3261D0550B2009AAF65 /* RestaurantDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3251D0550B2009AAF65 /* RestaurantDetails.m */; };
+		8BF8A3291D05566B009AAF65 /* Reviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3281D05566B009AAF65 /* Reviews.m */; };
+		8BF8A32C1D055749009AAF65 /* MenuItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A32B1D055749009AAF65 /* MenuItems.m */; };
+		8BF8A32F1D055908009AAF65 /* AddressClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A32E1D055908009AAF65 /* AddressClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,19 @@
 		8BF8A30D1D054BAA009AAF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF8A3101D054BAA009AAF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BF8A3121D054BAB009AAF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF8A3181D054E4B009AAF65 /* eatnowLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eatnowLogo.png; sourceTree = "<group>"; };
+		8BF8A31A1D054F99009AAF65 /* Restaurent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurent.h; sourceTree = "<group>"; };
+		8BF8A31B1D054F99009AAF65 /* Restaurent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurent.m; sourceTree = "<group>"; };
+		8BF8A3211D055039009AAF65 /* CustomerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerInfo.h; sourceTree = "<group>"; };
+		8BF8A3221D055039009AAF65 /* CustomerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerInfo.m; sourceTree = "<group>"; };
+		8BF8A3241D0550B2009AAF65 /* RestaurantDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetails.h; sourceTree = "<group>"; };
+		8BF8A3251D0550B2009AAF65 /* RestaurantDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetails.m; sourceTree = "<group>"; };
+		8BF8A3271D05566B009AAF65 /* Reviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reviews.h; sourceTree = "<group>"; };
+		8BF8A3281D05566B009AAF65 /* Reviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reviews.m; sourceTree = "<group>"; };
+		8BF8A32A1D055749009AAF65 /* MenuItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItems.h; sourceTree = "<group>"; };
+		8BF8A32B1D055749009AAF65 /* MenuItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItems.m; sourceTree = "<group>"; };
+		8BF8A32D1D055908009AAF65 /* AddressClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressClass.h; sourceTree = "<group>"; };
+		8BF8A32E1D055908009AAF65 /* AddressClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 		8BF8A3001D054BAA009AAF65 /* EatnowClone */ = {
 			isa = PBXGroup;
 			children = (
+				8BF8A3181D054E4B009AAF65 /* eatnowLogo.png */,
 				8BF8A3041D054BAA009AAF65 /* AppDelegate.h */,
 				8BF8A3051D054BAA009AAF65 /* AppDelegate.m */,
 				8BF8A3071D054BAA009AAF65 /* ViewController.h */,
@@ -67,6 +88,7 @@
 				8BF8A30F1D054BAA009AAF65 /* LaunchScreen.storyboard */,
 				8BF8A3121D054BAB009AAF65 /* Info.plist */,
 				8BF8A3011D054BAA009AAF65 /* Supporting Files */,
+				8BF8A3201D05500C009AAF65 /* Models */,
 			);
 			path = EatnowClone;
 			sourceTree = "<group>";
@@ -77,6 +99,25 @@
 				8BF8A3021D054BAA009AAF65 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BF8A3201D05500C009AAF65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8A31A1D054F99009AAF65 /* Restaurent.h */,
+				8BF8A31B1D054F99009AAF65 /* Restaurent.m */,
+				8BF8A3211D055039009AAF65 /* CustomerInfo.h */,
+				8BF8A3221D055039009AAF65 /* CustomerInfo.m */,
+				8BF8A3241D0550B2009AAF65 /* RestaurantDetails.h */,
+				8BF8A3251D0550B2009AAF65 /* RestaurantDetails.m */,
+				8BF8A3271D05566B009AAF65 /* Reviews.h */,
+				8BF8A3281D05566B009AAF65 /* Reviews.m */,
+				8BF8A32A1D055749009AAF65 /* MenuItems.h */,
+				8BF8A32B1D055749009AAF65 /* MenuItems.m */,
+				8BF8A32D1D055908009AAF65 /* AddressClass.h */,
+				8BF8A32E1D055908009AAF65 /* AddressClass.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +179,7 @@
 			files = (
 				8BF8A3111D054BAA009AAF65 /* LaunchScreen.storyboard in Resources */,
 				8BF8A30E1D054BAA009AAF65 /* Assets.xcassets in Resources */,
+				8BF8A3191D054E4B009AAF65 /* eatnowLogo.png in Resources */,
 				8BF8A30C1D054BAA009AAF65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF8A3261D0550B2009AAF65 /* RestaurantDetails.m in Sources */,
+				8BF8A31C1D054F99009AAF65 /* Restaurent.m in Sources */,
+				8BF8A32F1D055908009AAF65 /* AddressClass.m in Sources */,
 				8BF8A3091D054BAA009AAF65 /* ViewController.m in Sources */,
+				8BF8A3291D05566B009AAF65 /* Reviews.m in Sources */,
 				8BF8A3061D054BAA009AAF65 /* AppDelegate.m in Sources */,
+				8BF8A32C1D055749009AAF65 /* MenuItems.m in Sources */,
 				8BF8A3031D054BAA009AAF65 /* main.m in Sources */,
+				8BF8A3231D055039009AAF65 /* CustomerInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

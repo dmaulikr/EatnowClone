@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UITextField *zipCodeTxt;
+}
 
+-(IBAction)searchZipCode :(UIButton *)sender;
 
 @end
 
