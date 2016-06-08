@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B6146011D080B56003F8D3B /* RestraurantDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6146001D080B56003F8D3B /* RestraurantDetailsVC.m */; };
+		8B6146041D080D23003F8D3B /* OrderNow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6146031D080D23003F8D3B /* OrderNow.m */; };
+		8B6146071D080D6D003F8D3B /* RestraurantDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6146061D080D6D003F8D3B /* RestraurantDetails.m */; };
+		8B70D7751D06BB19006A217D /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70D7741D06BB19006A217D /* FilterView.m */; };
 		8BF8A3031D054BAA009AAF65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3021D054BAA009AAF65 /* main.m */; };
 		8BF8A3061D054BAA009AAF65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3051D054BAA009AAF65 /* AppDelegate.m */; };
 		8BF8A3091D054BAA009AAF65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3081D054BAA009AAF65 /* ViewController.m */; };
@@ -20,9 +24,19 @@
 		8BF8A3291D05566B009AAF65 /* Reviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3281D05566B009AAF65 /* Reviews.m */; };
 		8BF8A32C1D055749009AAF65 /* MenuItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A32B1D055749009AAF65 /* MenuItems.m */; };
 		8BF8A32F1D055908009AAF65 /* AddressClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A32E1D055908009AAF65 /* AddressClass.m */; };
+		8BF8A3321D0583EB009AAF65 /* ZipSearchResultVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3311D0583EB009AAF65 /* ZipSearchResultVCViewController.m */; };
+		8BF8A3351D05844B009AAF65 /* RestraurantSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3341D05844B009AAF65 /* RestraurantSearchResultCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B6145FF1D080B56003F8D3B /* RestraurantDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestraurantDetailsVC.h; sourceTree = "<group>"; };
+		8B6146001D080B56003F8D3B /* RestraurantDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestraurantDetailsVC.m; sourceTree = "<group>"; };
+		8B6146021D080D23003F8D3B /* OrderNow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderNow.h; sourceTree = "<group>"; };
+		8B6146031D080D23003F8D3B /* OrderNow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderNow.m; sourceTree = "<group>"; };
+		8B6146051D080D6D003F8D3B /* RestraurantDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestraurantDetails.h; sourceTree = "<group>"; };
+		8B6146061D080D6D003F8D3B /* RestraurantDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestraurantDetails.m; sourceTree = "<group>"; };
+		8B70D7731D06BB19006A217D /* FilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterView.h; sourceTree = "<group>"; };
+		8B70D7741D06BB19006A217D /* FilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterView.m; sourceTree = "<group>"; };
 		8BF8A2FE1D054BAA009AAF65 /* EatnowClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatnowClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF8A3021D054BAA009AAF65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BF8A3041D054BAA009AAF65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +60,10 @@
 		8BF8A32B1D055749009AAF65 /* MenuItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItems.m; sourceTree = "<group>"; };
 		8BF8A32D1D055908009AAF65 /* AddressClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressClass.h; sourceTree = "<group>"; };
 		8BF8A32E1D055908009AAF65 /* AddressClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressClass.m; sourceTree = "<group>"; };
+		8BF8A3301D0583EB009AAF65 /* ZipSearchResultVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipSearchResultVCViewController.h; sourceTree = "<group>"; };
+		8BF8A3311D0583EB009AAF65 /* ZipSearchResultVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipSearchResultVCViewController.m; sourceTree = "<group>"; };
+		8BF8A3331D05844B009AAF65 /* RestraurantSearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestraurantSearchResultCell.h; sourceTree = "<group>"; };
+		8BF8A3341D05844B009AAF65 /* RestraurantSearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestraurantSearchResultCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B6146081D0815AD003F8D3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B6146091D0815B6003F8D3B /* FilterView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8B6146091D0815B6003F8D3B /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				8B70D7731D06BB19006A217D /* FilterView.h */,
+				8B70D7741D06BB19006A217D /* FilterView.m */,
+			);
+			name = FilterView;
+			sourceTree = "<group>";
+		};
+		8B61460A1D0815C2003F8D3B /* RestaurantSearchResultCell */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8A3331D05844B009AAF65 /* RestraurantSearchResultCell.h */,
+				8BF8A3341D05844B009AAF65 /* RestraurantSearchResultCell.m */,
+			);
+			name = RestaurantSearchResultCell;
+			sourceTree = "<group>";
+		};
+		8B61460B1D08194C003F8D3B /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8A30A1D054BAA009AAF65 /* Main.storyboard */,
+				8BF8A30F1D054BAA009AAF65 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		8B61460C1D081966003F8D3B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8A3181D054E4B009AAF65 /* eatnowLogo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8B70D7761D06BC51006A217D /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8A3361D058454009AAF65 /* CustomeTableCell */,
+				8B6146081D0815AD003F8D3B /* Views */,
+			);
+			name = CustomViews;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		8BF8A2F51D054BAA009AAF65 = {
 			isa = PBXGroup;
 			children = (
@@ -78,17 +149,16 @@
 		8BF8A3001D054BAA009AAF65 /* EatnowClone */ = {
 			isa = PBXGroup;
 			children = (
-				8BF8A3181D054E4B009AAF65 /* eatnowLogo.png */,
+				8B61460B1D08194C003F8D3B /* StoryBoard */,
+				8BF8A3371D058477009AAF65 /* Controllers */,
+				8BF8A3201D05500C009AAF65 /* Models */,
+				8B70D7761D06BC51006A217D /* CustomViews */,
+				8B61460C1D081966003F8D3B /* Images */,
 				8BF8A3041D054BAA009AAF65 /* AppDelegate.h */,
 				8BF8A3051D054BAA009AAF65 /* AppDelegate.m */,
-				8BF8A3071D054BAA009AAF65 /* ViewController.h */,
-				8BF8A3081D054BAA009AAF65 /* ViewController.m */,
-				8BF8A30A1D054BAA009AAF65 /* Main.storyboard */,
 				8BF8A30D1D054BAA009AAF65 /* Assets.xcassets */,
-				8BF8A30F1D054BAA009AAF65 /* LaunchScreen.storyboard */,
 				8BF8A3121D054BAB009AAF65 /* Info.plist */,
 				8BF8A3011D054BAA009AAF65 /* Supporting Files */,
-				8BF8A3201D05500C009AAF65 /* Models */,
 			);
 			path = EatnowClone;
 			sourceTree = "<group>";
@@ -118,6 +188,32 @@
 				8BF8A32E1D055908009AAF65 /* AddressClass.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		8BF8A3361D058454009AAF65 /* CustomeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				8B61460A1D0815C2003F8D3B /* RestaurantSearchResultCell */,
+			);
+			name = CustomeTableCell;
+			path = EatnowClone;
+			sourceTree = "<group>";
+		};
+		8BF8A3371D058477009AAF65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8A3071D054BAA009AAF65 /* ViewController.h */,
+				8BF8A3081D054BAA009AAF65 /* ViewController.m */,
+				8BF8A3301D0583EB009AAF65 /* ZipSearchResultVCViewController.h */,
+				8BF8A3311D0583EB009AAF65 /* ZipSearchResultVCViewController.m */,
+				8B6145FF1D080B56003F8D3B /* RestraurantDetailsVC.h */,
+				8B6146001D080B56003F8D3B /* RestraurantDetailsVC.m */,
+				8B6146021D080D23003F8D3B /* OrderNow.h */,
+				8B6146031D080D23003F8D3B /* OrderNow.m */,
+				8B6146051D080D6D003F8D3B /* RestraurantDetails.h */,
+				8B6146061D080D6D003F8D3B /* RestraurantDetails.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,13 +289,19 @@
 			files = (
 				8BF8A3261D0550B2009AAF65 /* RestaurantDetails.m in Sources */,
 				8BF8A31C1D054F99009AAF65 /* Restaurent.m in Sources */,
+				8BF8A3321D0583EB009AAF65 /* ZipSearchResultVCViewController.m in Sources */,
 				8BF8A32F1D055908009AAF65 /* AddressClass.m in Sources */,
 				8BF8A3091D054BAA009AAF65 /* ViewController.m in Sources */,
 				8BF8A3291D05566B009AAF65 /* Reviews.m in Sources */,
 				8BF8A3061D054BAA009AAF65 /* AppDelegate.m in Sources */,
 				8BF8A32C1D055749009AAF65 /* MenuItems.m in Sources */,
 				8BF8A3031D054BAA009AAF65 /* main.m in Sources */,
+				8B6146071D080D6D003F8D3B /* RestraurantDetails.m in Sources */,
 				8BF8A3231D055039009AAF65 /* CustomerInfo.m in Sources */,
+				8BF8A3351D05844B009AAF65 /* RestraurantSearchResultCell.m in Sources */,
+				8B6146041D080D23003F8D3B /* OrderNow.m in Sources */,
+				8B6146011D080B56003F8D3B /* RestraurantDetailsVC.m in Sources */,
+				8B70D7751D06BB19006A217D /* FilterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +450,7 @@
 				8BF8A3171D054BAB009AAF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
