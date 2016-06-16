@@ -7,14 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RestaurantDetails.h"
 
 @interface MenuItems : NSObject
-
-@property NSString *cuisineType;//Chienese, Thai , Indian, Beverages etc.
-@property NSString *cuisineSubType;//Starter ,Main Course, etc.
-@property NSString *itemName;
-@property NSInteger *itemPrice;
 
 
 @end

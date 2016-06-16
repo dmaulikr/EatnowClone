@@ -8,20 +8,46 @@
 
 #import "ZipSearchResultVCViewController.h"
 #import "RestraurantSearchResultCell.h"
+#import "ZomatoAPI.h"
 
 @interface ZipSearchResultVCViewController ()
 {
-    BOOL isFilterOpen;
+    NSURLSessionDataTask *dataTask;
+    NSString *entity_id;
+    NSString *entity_type;
+    
 }
 @end
 
 @implementation ZipSearchResultVCViewController
+@synthesize qString;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    filterView.xViewConstraint = xConstraintForFilter;
-    isFilterOpen = NO;
+    __block ZomatoAPI *service = [ZomatoAPI initWithSearchQuery:qString];
+    
+    NSURL *url = [NSURL URLWithString:service.qStr];
+
+    dataTask = [service.sessionWithHeader dataTaskWithRequest:[[NSURLRequest alloc] initWithURL:url] completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        
+        id jsonData = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        if ([jsonData isKindOfClass:[NSDictionary class]]) {
+            NSDictionary *dicData = jsonData;
+            id localSuggetions = [dicData objectForKey:@"location_suggestions"];
+            if ([localSuggetions isKindOfClass:[NSArray class]]) {
+                NSDictionary *localSuggestionValues = [localSuggetions objectAtIndex:0];
+                service = [ZomatoAPI LoadSearchWithEntityID:[localSuggestionValues objectForKey:@"entity_id"] andEntityType:[localSuggestionValues objectForKey:@"entity_type"]];
+                
+            }
+            else {
+                NSLog(@"Current object is not dictionary is is kind of %@",[localSuggetions class]);
+            }
+        }
+        else {
+            NSLog(@"Response is not in dictionary format");
+        }
+    }];
+    [dataTask resume];
 }
 
 
@@ -41,34 +67,6 @@
     
     return cell;
 }
-
--(void)openFilter:(UIBarButtonItem *)sender
-{
-    CGRect screenBound = [[UIScreen mainScreen] bounds];
-    CGFloat width = screenBound.size.width;
-    if (isFilterOpen) {
-        [filterView HideFilter];
-    }
-    else
-    {
-        [filterView showFilter:width];
-    }
-}
-
-//- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
-//{
-//    [coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context)
-//     {
-//         UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-//         // do whatever
-//     } completion:^(id<UIViewControllerTransitionCoordinatorContext> context)
-//     {
-//         
-//     }];
-//    
-//    [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
-//}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

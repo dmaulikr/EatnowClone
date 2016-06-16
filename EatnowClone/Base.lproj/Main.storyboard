@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Pth-kf-sNQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Pth-kf-sNQ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -40,7 +40,7 @@
                                                 <state key="normal" title="Search"/>
                                                 <connections>
                                                     <action selector="searchZipCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="85n-Tc-1uq"/>
-                                                    <segue destination="hAr-wp-rdF" kind="show" id="WIO-JI-RHK"/>
+                                                    <segue destination="hAr-wp-rdF" kind="show" identifier="pushSearchResult" id="WIO-JI-RHK"/>
                                                 </connections>
                                             </button>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter PinCode e.g 6000 for Perth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DKO-7E-ugV">
@@ -110,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="1395" y="382"/>
         </scene>
-        <!--Restraurant Details-->
+        <!--Zip Search ResultVC View Controller-->
         <scene sceneID="hqI-Mo-wGq">
             <objects>
-                <viewController id="hAr-wp-rdF" customClass="RestraurantDetails" sceneMemberID="viewController">
+                <viewController id="hAr-wp-rdF" customClass="ZipSearchResultVCViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZfP-5f-wlh"/>
                         <viewControllerLayoutGuide type="bottom" id="SBD-mW-bAV"/>
@@ -131,9 +131,22 @@
                             </navigationBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Upg-xl-PZy">
                                 <rect key="frame" x="0.0" y="72" width="600" height="50"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5uh-Fw-PLt">
+                                        <rect key="frame" x="8" y="11" width="584" height="29"/>
+                                        <animations/>
+                                        <segments>
+                                            <segment title="First"/>
+                                            <segment title="Second"/>
+                                        </segments>
+                                    </segmentedControl>
+                                </subviews>
                                 <animations/>
                                 <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="5uh-Fw-PLt" firstAttribute="centerX" secondItem="Upg-xl-PZy" secondAttribute="centerX" id="7Wp-Jw-lT4"/>
+                                    <constraint firstItem="5uh-Fw-PLt" firstAttribute="leading" secondItem="Upg-xl-PZy" secondAttribute="leading" constant="8" id="H9Q-aA-87E"/>
+                                    <constraint firstItem="5uh-Fw-PLt" firstAttribute="centerY" secondItem="Upg-xl-PZy" secondAttribute="centerY" id="hTF-Cn-5ck"/>
                                     <constraint firstAttribute="height" constant="50" id="mVB-AW-DRP"/>
                                 </constraints>
                             </view>
@@ -145,7 +158,7 @@
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="120" id="vTD-tI-lH3">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="120" id="vTD-tI-lH3" customClass="RestraurantSearchResultCell">
                                                 <rect key="frame" x="0.0" y="28" width="600" height="120"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vTD-tI-lH3" id="NuT-nF-jc3">
@@ -261,13 +274,13 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Upg-xl-PZy" secondAttribute="trailing" constant="-20" id="0WH-cq-rse"/>
                             <constraint firstItem="YSx-rT-es8" firstAttribute="leading" secondItem="La3-nE-GNn" secondAttribute="leadingMargin" constant="-20" id="7B4-94-NLD"/>
+                            <constraint firstItem="Upg-xl-PZy" firstAttribute="top" secondItem="ZfP-5f-wlh" secondAttribute="bottom" constant="8" id="9WF-am-jN9"/>
                             <constraint firstItem="SBD-mW-bAV" firstAttribute="top" secondItem="YSx-rT-es8" secondAttribute="bottom" id="9no-zW-Uai"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2m0-01-8XD" secondAttribute="trailing" constant="-20" id="Ctk-J4-mse"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YSx-rT-es8" secondAttribute="trailing" constant="-20" id="UdT-s1-30z"/>
                             <constraint firstItem="2m0-01-8XD" firstAttribute="top" secondItem="Upg-xl-PZy" secondAttribute="bottom" constant="8" id="VDC-1I-P5D"/>
                             <constraint firstItem="SBD-mW-bAV" firstAttribute="top" secondItem="2m0-01-8XD" secondAttribute="bottom" constant="8" id="gv9-aQ-Z8q"/>
                             <constraint firstItem="Upg-xl-PZy" firstAttribute="leading" secondItem="La3-nE-GNn" secondAttribute="leadingMargin" constant="-20" id="mz0-Qa-Nna"/>
-                            <constraint firstItem="Upg-xl-PZy" firstAttribute="top" secondItem="ZfP-5f-wlh" secondAttribute="bottom" constant="52" id="sYA-8k-N0G"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -350,25 +363,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FrM-d3-dA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2990" y="382"/>
-        </scene>
-        <!--Order Now-->
-        <scene sceneID="z0f-72-DeO">
-            <objects>
-                <viewController id="vDj-vB-aCx" customClass="OrderNow" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ewb-2g-EPY"/>
-                        <viewControllerLayoutGuide type="bottom" id="lGE-ju-kDQ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gT4-wS-mx7">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1YH-NP-a32" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2993" y="1127"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aSM-HR-TwF">

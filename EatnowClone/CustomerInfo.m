@@ -10,10 +10,4 @@
 
 @implementation CustomerInfo
 
-@synthesize customerID;
-@synthesize customerName;
-@synthesize customerAddr;
-@synthesize contactNumber;
-@synthesize email;
-
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ZomatoAPI.h"
+#import "ZipSearchResultVCViewController.h"
 
 @interface ViewController ()
 
@@ -21,6 +23,20 @@
 
 -(IBAction)searchZipCode :(UIButton *)sender{
     
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"pushSearchResult"])
+    {
+        ZipSearchResultVCViewController *vc = [segue destinationViewController];
+        if (![zipCodeTxt.text isEqual:@""]) {
+            vc.qString = zipCodeTxt.text;
+        }
+        else
+        {
+            NSLog(@"Enter String");
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {

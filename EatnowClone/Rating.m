@@ -6,9 +6,9 @@
 //  Copyright © 2016 Varun. All rights reserved.
 //
 
-#import "Reviews.h"
+#import "Rating.h"
 
-@implementation Reviews
+@implementation Rating
 
 
 @end

@@ -7,12 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RestaurantDetails.h"
 #import "CustomerInfo.h"
-@interface Reviews : NSObject
 
-@property NSInteger *reviewID;
-@property NSString *reviewMsg;
-@property NSDate *onDate;
+@interface Rating : NSObject
+
 
 @end

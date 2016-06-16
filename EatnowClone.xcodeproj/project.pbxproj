@@ -11,6 +11,9 @@
 		8B6146041D080D23003F8D3B /* OrderNow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6146031D080D23003F8D3B /* OrderNow.m */; };
 		8B6146071D080D6D003F8D3B /* RestraurantDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6146061D080D6D003F8D3B /* RestraurantDetails.m */; };
 		8B70D7751D06BB19006A217D /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B70D7741D06BB19006A217D /* FilterView.m */; };
+		8BE6B3871D0E8456002CA3BC /* ZomatoAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE6B3861D0E8456002CA3BC /* ZomatoAPI.m */; };
+		8BE6B38A1D0EC358002CA3BC /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE6B3891D0EC358002CA3BC /* BaseModel.m */; };
+		8BE6B38D1D0EC45C002CA3BC /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE6B38C1D0EC45C002CA3BC /* Location.m */; };
 		8BF8A3031D054BAA009AAF65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3021D054BAA009AAF65 /* main.m */; };
 		8BF8A3061D054BAA009AAF65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3051D054BAA009AAF65 /* AppDelegate.m */; };
 		8BF8A3091D054BAA009AAF65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3081D054BAA009AAF65 /* ViewController.m */; };
@@ -18,17 +21,19 @@
 		8BF8A30E1D054BAA009AAF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8A30D1D054BAA009AAF65 /* Assets.xcassets */; };
 		8BF8A3111D054BAA009AAF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8A30F1D054BAA009AAF65 /* LaunchScreen.storyboard */; };
 		8BF8A3191D054E4B009AAF65 /* eatnowLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8A3181D054E4B009AAF65 /* eatnowLogo.png */; };
-		8BF8A31C1D054F99009AAF65 /* Restaurent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A31B1D054F99009AAF65 /* Restaurent.m */; };
+		8BF8A31C1D054F99009AAF65 /* Restaurnt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A31B1D054F99009AAF65 /* Restaurnt.m */; };
 		8BF8A3231D055039009AAF65 /* CustomerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3221D055039009AAF65 /* CustomerInfo.m */; };
-		8BF8A3261D0550B2009AAF65 /* RestaurantDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3251D0550B2009AAF65 /* RestaurantDetails.m */; };
-		8BF8A3291D05566B009AAF65 /* Reviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3281D05566B009AAF65 /* Reviews.m */; };
+		8BF8A3291D05566B009AAF65 /* Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3281D05566B009AAF65 /* Rating.m */; };
 		8BF8A32C1D055749009AAF65 /* MenuItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A32B1D055749009AAF65 /* MenuItems.m */; };
-		8BF8A32F1D055908009AAF65 /* AddressClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A32E1D055908009AAF65 /* AddressClass.m */; };
 		8BF8A3321D0583EB009AAF65 /* ZipSearchResultVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3311D0583EB009AAF65 /* ZipSearchResultVCViewController.m */; };
 		8BF8A3351D05844B009AAF65 /* RestraurantSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF8A3341D05844B009AAF65 /* RestraurantSearchResultCell.m */; };
+		DBEC6ADD5EE5E9DE2E6EAC51 /* libPods-EatnowClone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72442C2879445777535CA2FA /* libPods-EatnowClone.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D2CADC8115F2510CA036B17 /* Pods-EatnowClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatnowClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-EatnowClone/Pods-EatnowClone.release.xcconfig"; sourceTree = "<group>"; };
+		72442C2879445777535CA2FA /* libPods-EatnowClone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EatnowClone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EEC55953F5F3A60E7D4891 /* Pods-EatnowClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatnowClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EatnowClone/Pods-EatnowClone.debug.xcconfig"; sourceTree = "<group>"; };
 		8B6145FF1D080B56003F8D3B /* RestraurantDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestraurantDetailsVC.h; sourceTree = "<group>"; };
 		8B6146001D080B56003F8D3B /* RestraurantDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestraurantDetailsVC.m; sourceTree = "<group>"; };
 		8B6146021D080D23003F8D3B /* OrderNow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderNow.h; sourceTree = "<group>"; };
@@ -37,6 +42,12 @@
 		8B6146061D080D6D003F8D3B /* RestraurantDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestraurantDetails.m; sourceTree = "<group>"; };
 		8B70D7731D06BB19006A217D /* FilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterView.h; sourceTree = "<group>"; };
 		8B70D7741D06BB19006A217D /* FilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterView.m; sourceTree = "<group>"; };
+		8BE6B3851D0E8456002CA3BC /* ZomatoAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZomatoAPI.h; sourceTree = "<group>"; };
+		8BE6B3861D0E8456002CA3BC /* ZomatoAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZomatoAPI.m; sourceTree = "<group>"; };
+		8BE6B3881D0EC358002CA3BC /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		8BE6B3891D0EC358002CA3BC /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		8BE6B38B1D0EC45C002CA3BC /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		8BE6B38C1D0EC45C002CA3BC /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		8BF8A2FE1D054BAA009AAF65 /* EatnowClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatnowClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF8A3021D054BAA009AAF65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BF8A3041D054BAA009AAF65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,18 +59,14 @@
 		8BF8A3101D054BAA009AAF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BF8A3121D054BAB009AAF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BF8A3181D054E4B009AAF65 /* eatnowLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eatnowLogo.png; sourceTree = "<group>"; };
-		8BF8A31A1D054F99009AAF65 /* Restaurent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurent.h; sourceTree = "<group>"; };
-		8BF8A31B1D054F99009AAF65 /* Restaurent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurent.m; sourceTree = "<group>"; };
+		8BF8A31A1D054F99009AAF65 /* Restaurnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurnt.h; sourceTree = "<group>"; };
+		8BF8A31B1D054F99009AAF65 /* Restaurnt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurnt.m; sourceTree = "<group>"; };
 		8BF8A3211D055039009AAF65 /* CustomerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerInfo.h; sourceTree = "<group>"; };
 		8BF8A3221D055039009AAF65 /* CustomerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerInfo.m; sourceTree = "<group>"; };
-		8BF8A3241D0550B2009AAF65 /* RestaurantDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetails.h; sourceTree = "<group>"; };
-		8BF8A3251D0550B2009AAF65 /* RestaurantDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetails.m; sourceTree = "<group>"; };
-		8BF8A3271D05566B009AAF65 /* Reviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reviews.h; sourceTree = "<group>"; };
-		8BF8A3281D05566B009AAF65 /* Reviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reviews.m; sourceTree = "<group>"; };
+		8BF8A3271D05566B009AAF65 /* Rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rating.h; sourceTree = "<group>"; };
+		8BF8A3281D05566B009AAF65 /* Rating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rating.m; sourceTree = "<group>"; };
 		8BF8A32A1D055749009AAF65 /* MenuItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItems.h; sourceTree = "<group>"; };
 		8BF8A32B1D055749009AAF65 /* MenuItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItems.m; sourceTree = "<group>"; };
-		8BF8A32D1D055908009AAF65 /* AddressClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressClass.h; sourceTree = "<group>"; };
-		8BF8A32E1D055908009AAF65 /* AddressClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressClass.m; sourceTree = "<group>"; };
 		8BF8A3301D0583EB009AAF65 /* ZipSearchResultVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipSearchResultVCViewController.h; sourceTree = "<group>"; };
 		8BF8A3311D0583EB009AAF65 /* ZipSearchResultVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipSearchResultVCViewController.m; sourceTree = "<group>"; };
 		8BF8A3331D05844B009AAF65 /* RestraurantSearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestraurantSearchResultCell.h; sourceTree = "<group>"; };
@@ -71,12 +78,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEC6ADD5EE5E9DE2E6EAC51 /* libPods-EatnowClone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ED9C6EE68179C22E017D8C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72442C2879445777535CA2FA /* libPods-EatnowClone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80598C66E6F72D2D113A9863 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76EEC55953F5F3A60E7D4891 /* Pods-EatnowClone.debug.xcconfig */,
+				6D2CADC8115F2510CA036B17 /* Pods-EatnowClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8B6146081D0815AD003F8D3B /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,11 +148,20 @@
 		8B70D7761D06BC51006A217D /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				8BF8A3361D058454009AAF65 /* CustomeTableCell */,
+				8BF8A3361D058454009AAF65 /* TableCell */,
 				8B6146081D0815AD003F8D3B /* Views */,
 			);
 			name = CustomViews;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		8BE6B3841D0E8431002CA3BC /* Sevices */ = {
+			isa = PBXGroup;
+			children = (
+				8BE6B3851D0E8456002CA3BC /* ZomatoAPI.h */,
+				8BE6B3861D0E8456002CA3BC /* ZomatoAPI.m */,
+			);
+			name = Sevices;
 			sourceTree = "<group>";
 		};
 		8BF8A2F51D054BAA009AAF65 = {
@@ -135,6 +169,8 @@
 			children = (
 				8BF8A3001D054BAA009AAF65 /* EatnowClone */,
 				8BF8A2FF1D054BAA009AAF65 /* Products */,
+				80598C66E6F72D2D113A9863 /* Pods */,
+				3ED9C6EE68179C22E017D8C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +185,7 @@
 		8BF8A3001D054BAA009AAF65 /* EatnowClone */ = {
 			isa = PBXGroup;
 			children = (
+				8BE6B3841D0E8431002CA3BC /* Sevices */,
 				8B61460B1D08194C003F8D3B /* StoryBoard */,
 				8BF8A3371D058477009AAF65 /* Controllers */,
 				8BF8A3201D05500C009AAF65 /* Models */,
@@ -174,28 +211,28 @@
 		8BF8A3201D05500C009AAF65 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8BF8A31A1D054F99009AAF65 /* Restaurent.h */,
-				8BF8A31B1D054F99009AAF65 /* Restaurent.m */,
+				8BF8A31A1D054F99009AAF65 /* Restaurnt.h */,
+				8BF8A31B1D054F99009AAF65 /* Restaurnt.m */,
 				8BF8A3211D055039009AAF65 /* CustomerInfo.h */,
 				8BF8A3221D055039009AAF65 /* CustomerInfo.m */,
-				8BF8A3241D0550B2009AAF65 /* RestaurantDetails.h */,
-				8BF8A3251D0550B2009AAF65 /* RestaurantDetails.m */,
-				8BF8A3271D05566B009AAF65 /* Reviews.h */,
-				8BF8A3281D05566B009AAF65 /* Reviews.m */,
+				8BF8A3271D05566B009AAF65 /* Rating.h */,
+				8BF8A3281D05566B009AAF65 /* Rating.m */,
 				8BF8A32A1D055749009AAF65 /* MenuItems.h */,
 				8BF8A32B1D055749009AAF65 /* MenuItems.m */,
-				8BF8A32D1D055908009AAF65 /* AddressClass.h */,
-				8BF8A32E1D055908009AAF65 /* AddressClass.m */,
+				8BE6B3881D0EC358002CA3BC /* BaseModel.h */,
+				8BE6B3891D0EC358002CA3BC /* BaseModel.m */,
+				8BE6B38B1D0EC45C002CA3BC /* Location.h */,
+				8BE6B38C1D0EC45C002CA3BC /* Location.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
 		};
-		8BF8A3361D058454009AAF65 /* CustomeTableCell */ = {
+		8BF8A3361D058454009AAF65 /* TableCell */ = {
 			isa = PBXGroup;
 			children = (
 				8B61460A1D0815C2003F8D3B /* RestaurantSearchResultCell */,
 			);
-			name = CustomeTableCell;
+			name = TableCell;
 			path = EatnowClone;
 			sourceTree = "<group>";
 		};
@@ -223,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BF8A3151D054BAB009AAF65 /* Build configuration list for PBXNativeTarget "EatnowClone" */;
 			buildPhases = (
+				7D764C096CF9F76CDAA775BE /* [CP] Check Pods Manifest.lock */,
 				8BF8A2FA1D054BAA009AAF65 /* Sources */,
 				8BF8A2FB1D054BAA009AAF65 /* Frameworks */,
 				8BF8A2FC1D054BAA009AAF65 /* Resources */,
+				4C6B7271CC5CEE07DD8F21AF /* [CP] Embed Pods Frameworks */,
+				E4EB75B530991FC9790B6DDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,17 +322,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C6B7271CC5CEE07DD8F21AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EatnowClone/Pods-EatnowClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D764C096CF9F76CDAA775BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4EB75B530991FC9790B6DDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EatnowClone/Pods-EatnowClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BF8A2FA1D054BAA009AAF65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF8A3261D0550B2009AAF65 /* RestaurantDetails.m in Sources */,
-				8BF8A31C1D054F99009AAF65 /* Restaurent.m in Sources */,
+				8BF8A31C1D054F99009AAF65 /* Restaurnt.m in Sources */,
+				8BE6B38A1D0EC358002CA3BC /* BaseModel.m in Sources */,
 				8BF8A3321D0583EB009AAF65 /* ZipSearchResultVCViewController.m in Sources */,
-				8BF8A32F1D055908009AAF65 /* AddressClass.m in Sources */,
 				8BF8A3091D054BAA009AAF65 /* ViewController.m in Sources */,
-				8BF8A3291D05566B009AAF65 /* Reviews.m in Sources */,
+				8BF8A3291D05566B009AAF65 /* Rating.m in Sources */,
 				8BF8A3061D054BAA009AAF65 /* AppDelegate.m in Sources */,
 				8BF8A32C1D055749009AAF65 /* MenuItems.m in Sources */,
 				8BF8A3031D054BAA009AAF65 /* main.m in Sources */,
@@ -301,6 +388,8 @@
 				8BF8A3351D05844B009AAF65 /* RestraurantSearchResultCell.m in Sources */,
 				8B6146041D080D23003F8D3B /* OrderNow.m in Sources */,
 				8B6146011D080B56003F8D3B /* RestraurantDetailsVC.m in Sources */,
+				8BE6B3871D0E8456002CA3BC /* ZomatoAPI.m in Sources */,
+				8BE6B38D1D0EC45C002CA3BC /* Location.m in Sources */,
 				8B70D7751D06BB19006A217D /* FilterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +500,7 @@
 		};
 		8BF8A3161D054BAB009AAF65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76EEC55953F5F3A60E7D4891 /* Pods-EatnowClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EatnowClone/Info.plist;
@@ -422,6 +512,7 @@
 		};
 		8BF8A3171D054BAB009AAF65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2CADC8115F2510CA036B17 /* Pods-EatnowClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EatnowClone/Info.plist;

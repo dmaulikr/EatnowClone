@@ -11,10 +11,8 @@
 
 @interface ZipSearchResultVCViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
-    IBOutlet NSLayoutConstraint *xConstraintForFilter;
-    IBOutlet FilterView *filterView;
-}
 
--(IBAction) openFilter :(UIBarButtonItem *)sender;
+}
+@property (nonatomic)NSString *qString;
 
 @end

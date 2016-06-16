@@ -7,14 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AddressClass.h"
 
 @interface CustomerInfo : NSObject
 
-@property NSString *customerName;
-@property AddressClass *customerAddr;
-@property NSString *contactNumber;
-@property long int *customerID;
-@property NSString *email;
 
 @end
